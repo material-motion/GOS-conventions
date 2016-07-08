@@ -48,7 +48,11 @@ The following convention defines a file system structure for a shared Objective-
 
 ## Creating a new MDM library
 
-Use `mdm new repo <name>` to create a new Objective-C library.
+Run the following commands to create a new Objective-C library:
+
+    mdm new repo <name>
+    cd $(mdm dir <name>)
+    yo mm-component
 
 - [Documentation for `mdm`](https://github.com/material-motion/material-motion-team/tree/develop/contributor_tools/mdm)
 - [Documentation for `mdm new`](https://github.com/material-motion/material-motion-team/tree/develop/contributor_tools/new)
